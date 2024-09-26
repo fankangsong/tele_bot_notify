@@ -53,7 +53,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
 
     def process_notification(self, msg):
         chat_id = self.BOT_CHAT_ID
-        url = self.BOT_TOKEN + "/sendMessage"
+        url = "/" + self.BOT_TOKEN + "/sendMessage"
         params = urllib.parse.urlencode({'chat_id': chat_id, 'text': html.unescape(msg)})
         headers = {'Content-type': 'application/x-www-form-urlencoded'}
 

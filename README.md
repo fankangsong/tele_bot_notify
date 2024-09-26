@@ -14,7 +14,7 @@ docker run -d --name notify \
 -e TOKEN="password" \
 -e PORT=80 \
 -e BOT_CHAT_ID="123456789" \
--e BOT_TOKEN="/bot1****0******8:AAf3H**********I-Widk" \
+-e BOT_TOKEN="bot1****0******8:AAf3H**********I-Widk" \
 fankangsong/telegram_bot_notify
 ```
 
