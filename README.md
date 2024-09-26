@@ -3,7 +3,7 @@
 ## build docker image
 
 ```
-docker build -t telegram_bot_notify ./
+docker build -t fankangsong/telegram_bot_notify:latest ./
 ```
 
 ## docker deploy
